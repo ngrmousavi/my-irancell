@@ -8,7 +8,11 @@ const mainContent = () => {
         <div className='p-5 bg-[#E5E5E5]'>
             <h2 className='font-bold mb-5'>صفحه اصلی</h2>
             <img className='w-full' src={Vector}></img>
-            <Chart/>
+            <div className='w-full h-[320px] p-4 bg-white my-10 rounded-[16px]'>
+                <h2 className='font-bold'>نمودار میزان مصرف کل</h2>
+                <Chart/>
+            </div>
+            
             <RecommendedPackages/>
         </div>
     )

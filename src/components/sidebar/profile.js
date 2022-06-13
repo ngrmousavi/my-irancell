@@ -13,7 +13,7 @@ const profile = () => {
 
             <div className='flex flex-col items-center text-sm text-[#818181]'>
                 <span className='mb-1'>سلام حسین احمد پناه</span>
-                <span>+98 012367548</span>
+                <span dir='ltr'>+98 012367548</span>
             </div>
             
         </div>

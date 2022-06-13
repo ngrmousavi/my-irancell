@@ -1,11 +1,12 @@
 import React from 'react';
 import './styles.css';
 import SingleRecommend from './singleRecommend';
+import Recommended from '../../../images/recommended.png'
 
 const RecommendedPackages = () => {
     return (
         <div className='bg-white p-5 rounded-md'>
-        <h2 className='font-bold mb-5'>بسته های پیشنهادی مخصوص خود شما!</h2>
+        <img className='mb-5' src={Recommended}/>
             <table >
                 <tr>
                     <th>تاریخ انقضا بسته</th>
